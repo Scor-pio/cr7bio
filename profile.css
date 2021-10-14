@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+/**
+{
+
+}*/
+body
+{
+   margin: 0; 
+   text-align: center;
+   font-family: 'Merriweather', serif;
+   background-color:bisque;
+}
+
+h1
+{
+    font-size: 90px; /*100%=1em=16px=90/16 , 90px=5.625em or 5.625rem*/
+    margin-top: 0;
+    font-family:fantasy;
+    color:steelblue;
+}
+h2
+{
+    /*width: 10%;
+    margin: 0 auto;*/
+    font-weight: normal;
+    line-height: 2;
+    color:slategrey;
+}
+h3
+{
+    font-family:'Montserrat', sans-serif;
+    color:slategrey;
+}
+
+.top-container
+{
+    margin: 100px 0 100px;
+}
+.about-img
+{
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+
+}
+.profile-img
+{
+    width: 45%;
+    float: left;
+    margin-right: 30px;
+    
+}
+.about-description,.career-description
+{
+    line-height: 3;
+    /*clear: both;*/
+}
+
+.career-img
+{
+    width: 45%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-row
+{
+    width: 40%;
+    margin:100px auto;
+    text-align: left;
+}
+hr
+{
+    border:dotted grey   6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.subscribe-message
+{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #17d6c0;
+    background-image: -webkit-linear-gradient(top, #17d6c0, #1d7066);
+    background-image: -moz-linear-gradient(top, #17d6c0, #1d7066);
+    background-image: -ms-linear-gradient(top, #17d6c0, #1d7066);
+    background-image: -o-linear-gradient(top, #17d6c0, #1d7066);
+    background-image: linear-gradient(to bottom, #17d6c0, #1d7066);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #4ca0d9);
+    background-image: -moz-linear-gradient(top, #30e3cb, #4ca0d9);
+    background-image: -ms-linear-gradient(top, #30e3cb, #4ca0d9);
+    background-image: -o-linear-gradient(top, #30e3cb, #4ca0d9);
+    background-image: linear-gradient(to bottom, #30e3cb, #4ca0d9);
+    text-decoration: none;
+  }
+.bottom-container
+{
+    background-color:rgb(111, 0, 255);
+    padding: 50px 0 20px;
+}
+.footer-link
+{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover
+{
+    color: #EAF6F6;
+}
+.copyright
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.profile2
+{
+    display: inline-block;
+    
+}
+/*.computer-description
+{
+    clear: left;
+}
+.code-description
+{
+    clear: right;
+}*/
+/* top right bottom left eg.0 0 0 0;
+top right&left bottom eg. margin; 0 0 0;
+top&bottom right&left eg. margin: 0 0;*/
